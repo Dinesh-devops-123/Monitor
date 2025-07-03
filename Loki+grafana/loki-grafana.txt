@@ -1,0 +1,11 @@
+#Loki + Grafana  setup
+
+#Promtail : promtail is the client which fetches and forwards the logs to loki.
+#Loki: Loki is a horizontally scalable, highly available, multi-tenant log aggregation system inspired by prometheus.
+#Grafana: A visualizing tool which supports loki as a data source.
+
+Grafana loki architecture
+
+logs --> promtail --> loki --> Grafana
+
+
